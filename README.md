@@ -1,99 +1,96 @@
-DESI Solvent Flow Simulator
-Overview
+# DESI Solvent Flow Simulator
+
+## Overview
+
 This Python application simulates the Desorption Electrospray Ionization (DESI) solvent flow over various fingerprint ridge patterns using the Lattice Boltzmann Method (LBM). It provides a graphical user interface (GUI) for users to adjust simulation parameters and visualize the solvent flow in real-time.
 
-Features
-Interactive GUI: Allows users to adjust various parameters of the DESI setup and fingerprint surface.
+## Features
 
-Real-time Visualization: Displays the solvent flow over the fingerprint surface as it evolves over time.
+- Interactive GUI for adjusting DESI setup and fingerprint surface parameters
+- Real-time visualization of solvent flow over the fingerprint surface
+- Multiple ridge patterns: parallel lines, wavy lines, and whorls
+- Adjustable parameters: spray angle, tip-to-surface distance, spray width, and more
+- DESI schematic visualization
+- Wetting factor control for surface interaction simulation
 
-Multiple Ridge Patterns: Supports different fingerprint ridge patterns including parallel lines, wavy lines, and whorls.
+## Dependencies
 
-Adjustable Parameters: Users can modify spray angle, tip-to-surface distance, spray width, and more.
+- NumPy
+- Matplotlib
+- PIL (Python Imaging Library)
+- Tkinter
+- SciPy
 
-DESI Schematic: Provides a visual representation of the DESI emitter setup.
+## Installation
 
-Dependencies
-NumPy
+1. Ensure you have Python 3.x installed on your system.
+2. Install the required dependencies:
+   ```bash
+   pip install numpy matplotlib pillow scipy
+   ```
+3. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/desi-solvent-flow-simulator.git
+   cd desi-solvent-flow-simulator
+   ```
 
-Matplotlib
+## Usage
 
-PIL (Python Imaging Library)
-
-Tkinter
-
-SciPy
-
-Installation
-Ensure you have Python 3.x installed on your system.
-
-Install the required dependencies:
-
-bash
-pip install numpy matplotlib pillow scipy
-Download the script file.
-
-Usage
 Run the script:
-
-bash
+```bash
 python desi_solvent_flow_simulator.py
-The main application window and a schematic window will appear.
+```
 
-Adjust the simulation parameters using the sliders and dropdown menus.
+1. The main application window and a schematic window will appear.
+2. Adjust the simulation parameters using the sliders and dropdown menus.
+3. Click "Initialize Simulation" to start or reset the simulation.
+4. Use the "Flow Time Step" slider to advance the simulation and observe the flow patterns.
 
-Click "Initialize Simulation" to start or reset the simulation.
+## Key Components
 
-Use the "Flow Time Step" slider to advance the simulation and observe the flow patterns.
+### Simulation Parameters
 
-Key Components
-Simulation Parameters
-Fingerprint Ridge Type: Choose between parallel lines, wavy lines, or whorl patterns.
+- Fingerprint Ridge Type: Choose between parallel lines, wavy lines, or whorl patterns
+- Ridge Pattern Rotation Angle: -180° to 180°
+- DESI Sprayer Angle: 1° to 179°
+- Tip to Surface Distance: 1mm to 10mm
+- Spray Width Factor: 0.5 to 2.0
+- Spray Profile Type: Gaussian or uniform
+- Wetting Factor: 0.0 to 1.0
 
-Ridge Pattern Rotation Angle: Rotate the ridge pattern (-180° to 180°).
+### Visualization
 
-DESI Sprayer Angle: Adjust the angle of the solvent spray (1° to 179°).
+- Main window: Color-coded representation of solvent flow velocity
+- Optional ridge pattern overlay
+- Separate window: DESI emitter setup schematic
 
-Tip to Surface Distance: Set the distance between the DESI tip and the surface (1mm to 10mm).
+## Lattice Boltzmann Method (LBM) Implementation
 
-Spray Width Factor: Modify the width of the spray (0.5 to 2.0).
+- D2Q9 LBM model
+- 2D grid (300x100)
+- 9 velocity directions
+- Relaxation time (tau) = 1.0
+- Collision and streaming steps for fluid dynamics
 
-Spray Profile Type: Select between Gaussian or uniform spray profiles.
+## Limitations and Future Improvements
 
-Wetting Factor: Adjust the surface wetting properties (0.0 to 1.0).
+- Simplified wetting model
+- Potential performance optimizations for larger simulations
+- Opportunity for additional ridge patterns or custom pattern import
 
-Visualization
-The main window displays a color-coded representation of the solvent flow velocity.
+## Contributing
 
-Optionally show ridge patterns overlaid on the flow visualization.
-
-A separate window shows a schematic of the DESI emitter setup.
-
-Simulation Control
-Initialize or reset the simulation with current parameters.
-
-Control the progression of the simulation using the time step slider.
-
-Lattice Boltzmann Method (LBM) Implementation
-The simulation uses the D2Q9 LBM model:
-
-2D grid (300x100)
-
-9 velocity directions
-
-Relaxation time (tau) set to 1.0
-
-Collision and streaming steps implemented for fluid dynamics
-
-Limitations and Future Improvements
-The current wetting model is simplified and could be enhanced for more accurate surface interactions.
-
-Performance optimizations may be needed for larger simulations or real-time adjustments.
-
-Additional ridge patterns or custom pattern import could be implemented.
-
-Contributing
 Contributions to improve the simulation accuracy, add features, or optimize performance are welcome. Please submit pull requests or open issues for any bugs or suggestions.
+
+## License
+
+[MIT License](LICENSE)
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/46779592/d78871be-320c-445d-9b81-68311cddc1c2/paste.txt
+
+---
+Answer from Perplexity: https://www.perplexity.ai/search/d428d73f-c51c-4bd5-8ddf-6ab7703d3ed9?utm_source=copy_output
 
 [![Python Version](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
