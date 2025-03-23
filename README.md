@@ -84,8 +84,7 @@ Contributions to improve the simulation accuracy, add features, or optimize perf
 
 ## License
 
-[MIT License](LICENSE)
-MIT License
+[MIT License]
 
 Copyright (c) 2025 Rohith Krishna
 
@@ -95,16 +94,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/46779592/d78871be-320c-445d-9b81-68311cddc1c2/paste.txt
-
----
-Answer from Perplexity: https://www.perplexity.ai/search/d428d73f-c51c-4bd5-8ddf-6ab7703d3ed9?utm_source=copy_output
-
 [![Python Version](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Documentation Status](https://img.shields.io/badge/Documentation-Complete-brightgreen.svg)](README.md)
 
+Examples:
+
+The GUI of the simulation software
 ![image](https://github.com/user-attachments/assets/40f89678-04b9-47ce-8064-14e8088ffd4e)
 
+The simulation of DESI sovent flow over a whorl shape ridge pattern of fingerprint
 ![image](https://github.com/user-attachments/assets/3dd7ae1b-4872-427f-9586-7cfdd34fd52e)
