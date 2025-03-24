@@ -105,3 +105,14 @@ The GUI of the simulation software
 
 The simulation of DESI sovent flow over a whorl shape ridge pattern of fingerprint
 ![image](https://github.com/user-attachments/assets/3dd7ae1b-4872-427f-9586-7cfdd34fd52e)
+
+The simulation of DESI sovent flow over a parallel shape ridge pattern of fingerprint
+![image](https://github.com/user-attachments/assets/61ab198a-e542-471f-aa9f-a44ed9340696)
+
+The simulation of DESI sovent flow over a arch shape ridge pattern of fingerprint
+
+![image](https://github.com/user-attachments/assets/b7a174b8-3837-4200-86e7-4fbc0fdd141a)
+
+The simulation of DESI sovent flow over a loop shape ridge pattern of fingerprint
+
+![image](https://github.com/user-attachments/assets/6b4ba00f-9b41-4796-b9ed-e670ebb4084b)
