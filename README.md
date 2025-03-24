@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python application simulates the Desorption Electrospray Ionization (DESI) solvent flow over various fingerprint ridge patterns using the Lattice Boltzmann Method (LBM). It provides a graphical user interface (GUI) for users to adjust simulation parameters and visualize the solvent flow in real-time.
+This Python application simulates the Desorption Electrospray Ionization (DESI) solvent flow over various fingerprint ridge patterns using the Lattice Boltzmann Method (LBM). It provides a graphical user interface (GUI) for users to adjust simulation parameters and visualise the solvent flow in real-time. The current model is taking into account the fluid properties of the 95:5,Methanol:Water as the solvent system.
 
 ## Features
 
@@ -10,7 +10,7 @@ This Python application simulates the Desorption Electrospray Ionization (DESI) 
 - Real-time visualization of solvent flow over the fingerprint surface
 - Multiple ridge patterns: parallel lines, wavy lines, and whorls
 - Adjustable parameters: spray angle, tip-to-surface distance, spray width, and more
-- DESI schematic visualization
+- DESI schematic visualisation
 - Wetting factor control for surface interaction simulation
 
 ## Dependencies
@@ -50,7 +50,7 @@ python desi_solvent_flow_simulator.py
 
 ### Simulation Parameters
 
-- Fingerprint Ridge Type: Choose between parallel lines, wavy lines, or whorl patterns
+- Fingerprint Ridge Type: Choose between parallel lines, wavy lines, arhc, loop or whorl patterns
 - Ridge Pattern Rotation Angle: -180° to 180°
 - DESI Sprayer Angle: 1° to 179°
 - Tip to Surface Distance: 1mm to 10mm
@@ -58,7 +58,7 @@ python desi_solvent_flow_simulator.py
 - Spray Profile Type: Gaussian or uniform
 - Wetting Factor: 0.0 to 1.0
 
-### Visualization
+### Visualisation
 
 - Main window: Color-coded representation of solvent flow velocity
 - Optional ridge pattern overlay
@@ -76,7 +76,7 @@ python desi_solvent_flow_simulator.py
 
 - Simplified wetting model
 - Potential performance optimizations for larger simulations
-- Opportunity for additional ridge patterns or custom pattern import
+- Opportunity for custom pattern import
 
 ## Contributing
 
