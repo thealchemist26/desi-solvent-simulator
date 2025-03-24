@@ -30,7 +30,7 @@ This Python application simulates the Desorption Electrospray Ionization (DESI) 
    ```
 3. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/desi-solvent-flow-simulator.git
+   git clone https://github.com/thealchemist26/desi-solvent-flow-simulator.git
    cd desi-solvent-flow-simulator
    ```
 
