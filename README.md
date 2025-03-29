@@ -12,6 +12,8 @@ This Python application simulates the Desorption Electrospray Ionization (DESI) 
 - Adjustable parameters: spray angle, tip-to-surface distance, spray width, and more
 - DESI schematic visualisation
 - Wetting factor control for surface interaction simulation
+- Added roughness to the fingerprint ridges to simulate real-life fingerprint morphology (NEW FEATURE)
+  
 
 ## Dependencies
 
@@ -116,3 +118,9 @@ The simulation of DESI sovent flow over a arch shape ridge pattern of fingerprin
 The simulation of DESI sovent flow over a loop shape ridge pattern of fingerprint
 
 ![image](https://github.com/user-attachments/assets/6b4ba00f-9b41-4796-b9ed-e670ebb4084b)
+
+The simulation of DESI sovent flow over a whorl shape ridge pattern of fingerprint (with roughness enabled) and a spray width of 2 vs 0.5 
+![spray width 2](https://github.com/user-attachments/assets/6776ab5d-cdee-4b18-9478-55ec3d22d8e2)
+![spray width 05](https://github.com/user-attachments/assets/05214062-4236-4991-be38-f3a582ddd7bc)
+
+
