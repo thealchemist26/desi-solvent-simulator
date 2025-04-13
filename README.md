@@ -123,6 +123,5 @@ The simulation of DESI sovent flow over a whorl shape ridge pattern of fingerpri
 ![spray width 2](https://github.com/user-attachments/assets/6776ab5d-cdee-4b18-9478-55ec3d22d8e2)
 ![spray width 05](https://github.com/user-attachments/assets/05214062-4236-4991-be38-f3a582ddd7bc)
 
-The simulation of DESI sovent flow over a whorl shape ridge pattern of fingerprint (gif)
-![whorl_t0_1000-gif](https://github.com/user-attachments/assets/0f9f232c-eaa8-4619-96a2-79afe8c0aa54)
+
 
