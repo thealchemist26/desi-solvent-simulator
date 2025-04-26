@@ -77,16 +77,7 @@ python desi_solvent_flow_simulator.py
 
 ## Reference Table for Tau Value and Kinematic viscosity of different solvents
 
-Solvent	Approx. νreal (10−6 m²/s)	Approx. νlattice
-Approx. τ	Notes
-Hexane	0.45	0.102	0.81	Common non-polar solvent
-Acetone	0.45	0.102	0.81	Common polar aprotic solvent
-Acetonitrile	0.46	0.105	0.82	Common polar aprotic solvent
-Methanol (Pure)	0.73	0.166	1.00	
-Methanol:Water (95:5)	0.736	0.167	1.00	The reference value for this scaling
-Water	0.89	0.202	1.11	
-Ethanol	1.46	0.332	1.50	
-Isopropanol (IPA)	2.41	0.548	2.14	Slightly above slider max (2.0)
+![image](https://github.com/user-attachments/assets/38214085-7592-4c77-bd15-576e984e268e)
 
 
 ## Limitations and Future Improvements
